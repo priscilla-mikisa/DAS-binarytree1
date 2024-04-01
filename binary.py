@@ -41,11 +41,13 @@ root.insert(45)
 root.insert(14)
 root.insert(55)
 root.insert(67)
+root.insert(110)
+root.insert(120)
 #Then print out the tree
 """The tree is organised in a way that all the less numbers to the root node
 will be on the left and greater numbers on its right. Hence explainig the definition of
  the term binary tree as a hierachy in slide 1"""
 
 root.PrintTree()
-# The result will look more like this.[3,6,12,14].
-# The two left values first,3 and 6, then the root node 12 and lastly the right value 14.
+# The result will look more like this.[14,45,55,67,90,110,120].
+# The two left values,14,45,55 and 67, then the root node 90 and lastly the right values 110 and 120.
